@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Nodeless Angular</title>
+    <script type="text/javascript" src="https://unpkg.com/reflect-metadata@0.1.10"></script>
+    <script type="text/javascript" src="https://unpkg.com/angular-polyfills@1.0.1"></script>
+    <script type="text/javascript" src="https://unpkg.com/zone.js@0.8.17"></script>
+    <script type="text/javascript" src="https://unpkg.com/typescript@2.4.2"></script>
+    <script type="text/javascript" src="https://unpkg.com/systemjs@0.20.18"></script>
+    <script type="text/javascript" src="config.js"></script>
+</head>
+<body>
+    <app-component>Loading...</app-component>
+    <script>
+        System.import('app/main').then(()=>console.log('System Loaded'));
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{ // This is a basic tsconfig.json, meant purely for the editor's edification.
+    "include": ["./**/*.ts"],
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noEmit": true,
+        "alwaysStrict": true
+    }
+}
