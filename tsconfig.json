@@ -1,6 +1,7 @@
 { // This is a basic tsconfig.json, meant purely for the editor's edification.
     "include": ["./**/*.ts"],
     "compilerOptions": {
+        "target": "esnext", // "ES3" target doesn't understand Promise static methods...
         "module": "system",
         "noImplicitAny": true,
         "strictNullChecks": true,
