@@ -39,12 +39,16 @@ SystemJS.config({
         },
         "app": {
             defaultExtension: 'ts'
+        },
+        "Rx": {
+            defaultExtension: 'js'
         }
     },
     map: {
         "ts": "https://unpkg.com/plugin-typescript@7.1.0",
         "typescript": "https://unpkg.com/typescript@2.4.2",
         "rxjs": "https://unpkg.com/rxjs",
+        "Rx": "https://unpkg.com/rxjs/bundles/Rx",
         "@angular": "https://unpkg.com/@angular",
         "angular-in-memory-web-api": "https://unpkg.com/angular-in-memory-web-api@0.3.2"
     },
